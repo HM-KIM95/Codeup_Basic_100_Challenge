@@ -1,5 +1,5 @@
-# 6037 [기초-산술연산] 문장 여러번 출력하기(설명)(py)
+# 6038 : [기초-산술연산] 정수 2개 입력받아 거듭제곱 계산하기(설명)(py)
 
-n = input()
-s = input()
-print(int(n)*s)
+a, b = input().split()
+s = int(a) ** int(b)
+print(s)
