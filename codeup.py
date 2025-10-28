@@ -1,4 +1,3 @@
-# 6053 : [기초-논리연산] 참 거짓 바꾸기(설명)(py)
-a = bool(int(input()))
-
-print(not a)
+# 6054 : [기초-논리연산] 둘 다 참일 경우만 참 출력하기(설명)(py)
+a, b = input().split()
+print(bool(int(a)) and bool(int(b)))
