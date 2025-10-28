@@ -1,5 +1,6 @@
-# 6038 : [기초-산술연산] 정수 2개 입력받아 거듭제곱 계산하기(설명)(py)
+# 6040 : [기초-산술연산] 정수 2개 입력받아 나눈 몫 계산하기(설명)(py)
 
-f1, f2 = input().split()
-s = float(f1) ** float(f2)
+a, b = input().split()
+s = int(a) // int(b)
+
 print(s)
