@@ -1,6 +1,4 @@
-# 6051 : [기초-비교연산] 정수 2개 입력받아 비교하기4(설명)(py)
-a, b = input().split()
-a = int(a)
-b = int(b)
+# 6052 : [기초-논리연산] 정수 입력받아 참 거짓 평가하기(설명)(py)
+n = int(input())
 
-print(a != b)
+print(bool(n))
