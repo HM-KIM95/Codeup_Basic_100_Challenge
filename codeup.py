@@ -1,4 +1,4 @@
-# 6052 : [기초-논리연산] 정수 입력받아 참 거짓 평가하기(설명)(py)
-n = int(input())
+# 6053 : [기초-논리연산] 참 거짓 바꾸기(설명)(py)
+a = bool(int(input()))
 
-print(bool(n))
+print(not a)
