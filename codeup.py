@@ -1,3 +1,6 @@
-# 6055 : [기초-논리연산] 하나라도 참이면 참 출력하기(설명)(py)
+# 6056 : [기초-논리연산] 참/거짓이 서로 다를 때에만 참 출력하기(설명)(py)
 a, b = input().split()
-print(bool(int(a)) or bool(int(b)))
+a = bool(int(a))
+b = bool(int(b))
+
+print((a and (not b)) or ((not a) and b))
