@@ -1,4 +1,8 @@
-# 6062 : [기초-비트단위논리연산] 비트단위로 XOR 하여 출력하기(설명)(py)
+# 6063 : [기초-3항연산] 정수 2개 입력받아 큰 값 출력하기(설명)(py)
 
-a , b = input().split()
-print(int(a) ^ int(b))
+a, b = input().split()
+a = int(a)
+b = int(b)
+c = (a if (a>=b) else b)
+
+print(c)
