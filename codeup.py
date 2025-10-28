@@ -1,6 +1,3 @@
-# 6057 : [기초-논리연산] 참/거짓이 서로 같을 때에만 참 출력하기(설명)(py)
-a, b = input().split()
-a = int(a)
-b = int(b)
-
-print((bool(not a and not b)) and (not(a or b)))
+# 6059 : [기초-비트단위논리연산] 비트단위로 NOT 하여 출력하기(설명)(py)
+a = int(input())
+print(~a)
