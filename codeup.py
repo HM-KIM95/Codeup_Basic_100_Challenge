@@ -1,11 +1,5 @@
-# 6045 : [기초-산술연산] 정수 3개 입력받아 합과 평균 출력하기(설명)(py)
+# 6046 : [기초-비트시프트연산] 정수 1개 입력받아 2배 곱해 출력하기(설명)(py)
 
-a, b, c = input().split()
-a = int(a)
-b = int(b)
-c = int(c)
-
-d = a + b + c
-e = format(d/3, ".2f")
-
-print(d, e)
+n = input()
+n = int(n)
+print(n<<1)
