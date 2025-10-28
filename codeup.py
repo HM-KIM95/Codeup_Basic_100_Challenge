@@ -1,6 +1,6 @@
-# 6040 : [기초-산술연산] 정수 2개 입력받아 나눈 몫 계산하기(설명)(py)
+# 6043 : [기초-산술연산] 실수 2개 입력받아 나눈 결과 계산하기(py)
 
 a, b = input().split()
-s = int(a) % int(b)
+s = float(a) / float(b)
 
-print(s)
+print(format(s, ".3f"))
