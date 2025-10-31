@@ -1,4 +1,4 @@
-# 6065 : [기초-조건/선택실행구조] 정수 3개 입력받아 짝수만 출력하기(설명)(py)
+# 6066 : [기초-조건/선택실행구조] 정수 3개 입력받아 짝/홀 출력하기(설명)(py)
 
 a, b, c = input().split()
 a = int(a)
@@ -6,10 +6,16 @@ b = int(b)
 c = int(c)
 
 if a % 2 == 0 :
-    print(a)
+    print("even")
+else :
+    print("odd")
     
 if b % 2 == 0 :
-    print(b)
-    
+    print("even")
+else :
+    print("odd")
+
 if c % 2 == 0 :
-    print(c)
+    print("even")
+else :
+    print("odd")
