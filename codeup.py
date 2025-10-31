@@ -1,21 +1,16 @@
-# 6066 : [기초-조건/선택실행구조] 정수 3개 입력받아 짝/홀 출력하기(설명)(py)
+# 6067 : [기초-조건/선택실행구조] 정수 1개 입력받아 분류하기(설명)(py)
 
-a, b, c = input().split()
-a = int(a)
-b = int(b)
-c = int(c)
+n = input()
+n = int(n)
 
-if a % 2 == 0 :
-    print("even")
-else :
-    print("odd")
+if n < 0:
+    if n % 2 == 0:
+        print('A')
+    else:
+        print("B")
+else:
+    if n % 2 == 0:
+        print("C")
+    else:
+        print("D")
     
-if b % 2 == 0 :
-    print("even")
-else :
-    print("odd")
-
-if c % 2 == 0 :
-    print("even")
-else :
-    print("odd")
