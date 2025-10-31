@@ -1,9 +1,15 @@
-# 6064 : [기초-3항연산] 정수 3개 입력받아 가장 작은 값 출력하기(설명)(py)
+# 6065 : [기초-조건/선택실행구조] 정수 3개 입력받아 짝수만 출력하기(설명)(py)
 
 a, b, c = input().split()
 a = int(a)
 b = int(b)
 c = int(c)
-d = ((a if (a<=b) else b) if ((a if (a<=b) else b)<=c) else c)
 
-print(d)
+if a % 2 == 0 :
+    print(a)
+    
+if b % 2 == 0 :
+    print(b)
+    
+if c % 2 == 0 :
+    print(c)
