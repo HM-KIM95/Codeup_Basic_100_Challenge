@@ -1,16 +1,17 @@
-# 6068 : [기초-조건/선택실행구조] 점수 입력받아 평가 출력하기(설명)(py)
+# 6069 : [기초-조건/선택실행구조] 평가 입력받아 다르게 출력하기(py)
 
 n = input()
-n = int(n)
 
-if n >= 90:
-    print('A')
-    
+if n == "A":
+    print('best!!!')
 else:
-    if n >= 70:
-        print('B')
+    if n == "B":
+        print('good!!')
     else:
-        if n >= 40:
-            print('C')
+        if n == "C":
+            print('run!')
         else:
-            print('D')
+            if n == "D":
+                print('slowly~')
+            else:
+                print('what?')
