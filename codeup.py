@@ -1,14 +1,13 @@
-# 6069 : [기초-조건/선택실행구조] 평가 입력받아 다르게 출력하기(py)
+# 6070 : [기초-조건/선택실행구조] 월 입력받아 계절 출력하기(설명)(py)
 
 n = input()
+n = int(n)
 
-if n == "A" :
-    print('best!!!')
-elif n == "B" :
-    print('good!!')
-elif n == "C" :
-    print('run!')
-elif n == "D" :
-    print('slowly~')
+if n // 3 == 1 :
+    print("spring")
+elif n // 3 == 2 :
+    print("summer")
+elif n // 3 == 3 :
+    print("fall")
 else :
-    print('what?')
+    print("winter")
