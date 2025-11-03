@@ -1,13 +1,11 @@
-# 6070 : [기초-조건/선택실행구조] 월 입력받아 계절 출력하기(설명)(py)
+# 6071 : [기초-반복실행구조] 0 입력될 때까지 무한 출력하기(설명)(py)
 
-n = input()
-n = int(n)
+n = int(input())
 
-if n // 3 == 1 :
-    print("spring")
-elif n // 3 == 2 :
-    print("summer")
-elif n // 3 == 3 :
-    print("fall")
-else :
-    print("winter")
+# while: ~할 때 까지 ex) while n!=0 (n이 0이 될 때 까지)
+n = 1
+
+while n!=0 :
+    n = int(input())
+    if n!= 0:
+        print(n)
