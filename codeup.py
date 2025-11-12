@@ -1,6 +1,6 @@
-c = ord(input())
-t = ord('a')
+c = int(input())
+t = int('0')
 
 while t <= c:
-    print(chr(t), end =' ')
+    print(int(t), end ='\n')
     t += 1
