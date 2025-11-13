@@ -1,6 +1,3 @@
-c = int(input())
-t = int('0')
-
-while t <= c:
-    print(int(t), end ='\n')
-    t += 1
+n = int(input())
+for i in range(n+1):
+    print(i)
