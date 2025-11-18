@@ -1,10 +1,9 @@
-n = int(input())
+a, b = input().split()
 
-i = 0
-sum = 0
+a = int(a)
+b = int(b)
 
-while n > sum:
-    i += 1
-    sum += i
-    
-print(i)
+for i in range(1, a+1):
+    for j in range(1, b+1):
+        print(i, end=' ')
+        print(j)
