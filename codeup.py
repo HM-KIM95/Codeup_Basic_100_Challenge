@@ -1,9 +1,6 @@
-a, b = input().split()
+a = input()
+n = int(a, 16)
 
-a = int(a)
-b = int(b)
-
-for i in range(1, a+1):
-    for j in range(1, b+1):
-        print(i, end=' ')
-        print(j)
+for i in range(1, 16):
+    print('%X'%n, '*%X'%i, '=%X'%(n*i), sep='')
+    
